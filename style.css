@@ -57,6 +57,11 @@
 .profile-img {
     border-radius: 50%;
     border: #03001C solid;
-    /* grid-area: 2 / 5; */
     width: 200px;
+}
+
+@media screen and (max-width: 680px) {
+    .profile-img{
+        width: 150px;
+    }
 }
