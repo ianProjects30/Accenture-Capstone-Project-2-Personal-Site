@@ -64,11 +64,11 @@
     #page1 {
         display: grid;
         height: auto;
-        grid-template-rows: 2fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     }
 
     .profile-img{
+        margin-top: 10px;
         width: 150px;
     }
 }
