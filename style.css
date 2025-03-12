@@ -69,6 +69,14 @@
         grid-template-rows: 1fr;
     }
 
+    .hello{
+        font-size: xx-large;
+    }
+
+    .beginner{
+        font-size: large;
+    }
+
     .profile-img {
         margin: 10px 0 10px 0;
         width: 100%;
