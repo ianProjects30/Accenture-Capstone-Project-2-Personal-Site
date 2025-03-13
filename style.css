@@ -61,6 +61,28 @@
     grid-area: 2 / 5;
 }
 
+
+
+/* SECTION 2 */
+
+.p2-inline-block {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+.item {
+    padding: 20px;
+    background-color: #5B8FB9;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.p2-inline-block li{
+    padding: 0 1rem;
+}
+
 @media screen and (max-width: 680px) {
     #page1 {
         display: grid;
@@ -69,16 +91,30 @@
         grid-template-rows: 1fr;
     }
 
-    .hello{
+    .hello {
         font-size: xx-large;
     }
 
-    .beginner{
+    .beginner {
         font-size: large;
     }
 
     .profile-img {
         margin: 10px 0 10px 0;
         width: 100px;
+    }
+
+
+    /* section 2 */
+    .p2-inline-block {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: start;
+        align-content: start;
+    }
+
+    .item {
+        text-align: left;
     }
 }
