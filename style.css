@@ -92,6 +92,12 @@
 
 .page2-inline-block li{
     padding: 0 1rem;
+    list-style: none;
+    text-align: justify;
+}
+
+.year{
+    font-weight: bold;
 }
 
 #page3 img{
