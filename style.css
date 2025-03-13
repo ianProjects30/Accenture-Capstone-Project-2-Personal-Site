@@ -187,4 +187,8 @@
         gap: 2rem;
         margin: 0 2rem;
     }
+
+    .project-page a {
+        font-size: 18px;
+    }
 }
