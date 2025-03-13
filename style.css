@@ -1,3 +1,7 @@
+*{
+    font-family: "PT Serif", serif;
+}
+
 .gradient-bg {
     background: linear-gradient(300deg, #5B8FB9, #301E67, #03001C);
     background-size: 180% 180%;
@@ -67,14 +71,14 @@
 
 .p2-inline-block {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 2rem;
     margin: 0 2rem;
 }
 
 .item {
     padding: 20px;
-    background-color: #5B8FB9;
+    background-color: #5b8fb99c;
     border-radius: 5px;
     /* text-align: center; */
 }
