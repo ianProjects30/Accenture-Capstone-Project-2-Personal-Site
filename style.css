@@ -8,6 +8,12 @@
     animation: gradient-animation 18s ease infinite;
 }
 
+.page4-gradient {
+    background: linear-gradient(300deg, #5B8FB9, #03001C, #301E67);
+    background-size: 180% 180%;
+    /* animation: gradient-animation 18s ease infinite; */
+}
+
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -141,6 +147,28 @@
     border-radius: 20px;
 }
 
+/*Section 4*/
+.about-me {
+    display: grid;
+    grid-template: auto / 1fr 2fr;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+.about-me img {
+    border: #03001C solid;
+    width: 100%;
+    grid-area: 1 / 1;
+}
+
+.more-info {
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    grid-area: 1 / 2;
+    padding: 2rem;
+}
+
 
 
 @media screen and (max-width: 680px) {
@@ -190,5 +218,21 @@
 
     .project-page a {
         font-size: 18px;
+    }
+
+
+
+    /* .about-me {
+        grid-row: 1fr 1fr 1fr;
+    } */
+
+    .about-me img {
+        border: #03001C solid;
+        width: 100%;
+        grid-area: 2 / 1;
+    }
+
+    .more-info {
+        grid-area: 1 / 2 / 3 / 2;
     }
 }
