@@ -69,12 +69,20 @@
 
 /* SECTION 2 */
 
-.page2-inline-block, .project-page {
+.page2-inline-block {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 2rem;
     margin: 0 2rem;
 }
+
+.project-page {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
 
 .item {
     padding: 20px;
